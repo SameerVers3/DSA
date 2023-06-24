@@ -1,6 +1,4 @@
-package LinearSearch;
-
-import java.util.Arrays;
+package com.sameer.LinearSearch;
 
 public class MaxIn2DArray {
     public static void main(String[] args) {

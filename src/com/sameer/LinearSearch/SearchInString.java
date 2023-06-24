@@ -1,4 +1,4 @@
-package LinearSearch;
+package com.sameer.LinearSearch;
 
 public class SearchInString {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package LinearSearch;
+package com.sameer.LinearSearch;
 
 import java.util.Arrays;
 

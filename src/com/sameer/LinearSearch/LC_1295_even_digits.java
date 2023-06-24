@@ -1,4 +1,4 @@
-package LinearSearch;
+package com.sameer.LinearSearch;
 // https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
 public class LC_1295_even_digits {
     public static void main(String[] args) {
