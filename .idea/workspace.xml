@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee26cad9-107f-49c4-9a57-2d1db8a205ce" name="Changes" comment="Linear Search Done">
-      <change afterPath="$PROJECT_DIR$/src/com/sameer/BinarySearch/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sameer/BinarySearch/OrderAgnosticBinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sameer/LinkedList/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sameer/Sorting/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sameer/Sorting/InsersionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sameer/Sorting/SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinearSearch/FindMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sameer/LinearSearch/FindMax.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinearSearch/FindMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sameer/LinearSearch/FindMin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinearSearch/LC_1295_even_digits.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sameer/LinearSearch/LC_1295_even_digits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinearSearch/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sameer/LinearSearch/LinearSearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinearSearch/MaxIn2DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sameer/LinearSearch/MaxIn2DArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinearSearch/SearchIn2DArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sameer/LinearSearch/SearchIn2DArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinearSearch/SearchInRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sameer/LinearSearch/SearchInRange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LinearSearch/SearchInString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sameer/LinearSearch/SearchInString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,21 +30,28 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2Rbbh6DrYXCFnQsas16OLydcp6S" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "E:/java/projects/DSA"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/java/projects/DSA&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.OrderAgnosticBinarySearch">
+}</component>
+  <component name="RunManager" selected="Application.InsersionSort">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sameer.BinarySearch.BinarySearch" />
       <module name="DSA" />
@@ -63,12 +65,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC_1295_even_digits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sameer.LinearSearch.LC_1295_even_digits" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sameer.Sorting.BubbleSort" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sameer.LinearSearch.*" />
+          <option name="PATTERN" value="com.sameer.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sameer.LinearSearch.MaxIn2DArray" />
+    <configuration name="InsersionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sameer.Sorting.InsersionSort" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sameer.LinearSearch.*" />
+          <option name="PATTERN" value="com.sameer.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchIn2DArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sameer.LinearSearch.SearchIn2DArray" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sameer.Sorting.SelectionSort" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sameer.LinearSearch.*" />
+          <option name="PATTERN" value="com.sameer.Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InsersionSort" />
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.OrderAgnosticBinarySearch" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.LC_1295_even_digits" />
-        <item itemvalue="Application.MaxIn2DArray" />
-        <item itemvalue="Application.SearchIn2DArray" />
       </list>
     </recent_temporary>
   </component>
@@ -155,5 +157,34 @@
     <MESSAGE value="Started learning DSA" />
     <MESSAGE value="Linear Search Done" />
     <option name="LAST_COMMIT_MESSAGE" value="Linear Search Done" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/sameer/Sorting/BubbleSort.java</url>
+          <line>10</line>
+          <properties class="com.sameer.Sorting.BubbleSort" method="bubbleSort">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/sameer/Sorting/SelectionSort.java</url>
+          <line>11</line>
+          <properties class="com.sameer.Sorting.SelectionSort" method="selectionSort">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="arr" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
