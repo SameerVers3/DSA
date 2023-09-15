@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee26cad9-107f-49c4-9a57-2d1db8a205ce" name="Changes" comment="Linear Search Done">
-      <change afterPath="$PROJECT_DIR$/src/com/sameer/LinkedList/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sameer/Sorting/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sameer/Sorting/InsersionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sameer/Sorting/SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="ee26cad9-107f-49c4-9a57-2d1db8a205ce" name="Changes" comment="sorting algos">
+      <change afterPath="$PROJECT_DIR$/src/com/sameer/LinkedList/doublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sameer/Sorting/ShellSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sameer/LinkedList/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sameer/LinkedList/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +24,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SameerVers3&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d74f2326-b7d0-4bc9-ba6b-16c5b0855347" />
+        <option name="url" value="https://github.com/SameerVers3/DSA.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,13 +63,13 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.InsersionSort">
-    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sameer.BinarySearch.BinarySearch" />
+  <component name="RunManager" selected="Application.doublyLinkedList">
+    <configuration name="doublyLinkedList (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sameer.LinkedList.doublyLinkedList" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sameer.BinarySearch.*" />
+          <option name="PATTERN" value="com.sameer.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -65,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sameer.Sorting.BubbleSort" />
+    <configuration name="doublyLinkedList (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sameer.LinkedList.doublyLinkedList" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sameer.Sorting.*" />
+          <option name="PATTERN" value="com.sameer.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsersionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sameer.Sorting.InsersionSort" />
+    <configuration name="doublyLinkedList (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sameer.LinkedList.doublyLinkedList" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sameer.Sorting.*" />
+          <option name="PATTERN" value="com.sameer.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderAgnosticBinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sameer.BinarySearch.OrderAgnosticBinarySearch" />
+    <configuration name="doublyLinkedList (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sameer.LinkedList.doublyLinkedList" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sameer.BinarySearch.*" />
+          <option name="PATTERN" value="com.sameer.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sameer.Sorting.SelectionSort" />
+    <configuration name="doublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sameer.LinkedList.doublyLinkedList" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sameer.Sorting.*" />
+          <option name="PATTERN" value="com.sameer.LinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InsersionSort" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.OrderAgnosticBinarySearch" />
-        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.doublyLinkedList" />
+        <item itemvalue="Application.doublyLinkedList (3)" />
+        <item itemvalue="Application.doublyLinkedList (2)" />
+        <item itemvalue="Application.doublyLinkedList (1)" />
+        <item itemvalue="Application.doublyLinkedList (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -150,13 +162,22 @@
       <option name="project" value="LOCAL" />
       <updated>1687535448916</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="sorting algos">
+      <option name="closed" value="true" />
+      <created>1694068646497</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694068646497</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started learning DSA" />
     <MESSAGE value="Linear Search Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linear Search Done" />
+    <MESSAGE value="sorting algos" />
+    <option name="LAST_COMMIT_MESSAGE" value="sorting algos" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
